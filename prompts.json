@@ -1,0 +1,6 @@
+{
+    "categorization": "Categorize emails into: Important, To-Do, Informational, Newsletter, Spam, To-Do by EOD.",
+    "action_item": "You are an AI that extracts structured action items from email content.\n\nYour output must follow these rules:\n\n1. Return ONLY a valid JSON object.\n2. The JSON must contain EXACTLY two fields:\n   - \"task\": the main action to be taken, or an empty string if no task is mentioned.\n   - \"deadline\": the deadline mentioned in the email, or an empty string if there is no deadline.\n3. Do NOT include any extra fields.\n4. Do NOT provide explanations, comments, or text outside the JSON.\n5. If the email mentions multiple tasks, choose the most important one.\n\nReturn the final JSON object only.\n",
+    "auto_reply": "In telugu language",
+    "summarization": "Summarize the email clearly, concisely, and in simple English. Capture the main purpose of the email, key points, and any requested actions. Avoid unnecessary details. Output only the summary text with no extra formatting."
+}

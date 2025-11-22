@@ -1,0 +1,751 @@
+[
+  {
+    "id": "msg_001",
+    "thread_id": "thd_001",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T09:45:00Z",
+    "sender_name": "Sarah Chen",
+    "sender_email": "sarah.chen@neural-systems.com",
+    "subject": "Urgent: Model Training Pipeline Optimization",
+    "body_text": "Hi Alex,\n\nI've reviewed the latest logs from the nightly build, and there's something we need to address immediately. Although the accuracy improved by roughly 2% after the latest model tweaks, the latency has gone up significantly on the inference cluster. The increase appears to be consistent across GPU nodes and edge deployments.\n\nPlease inspect the feature extraction pipeline added in Build 2047. Early signs suggest the new attention fusion layer may be causing longer compute cycles. We cannot proceed with the scheduled rollout until this is resolved.\n\nLet me know once you've run a trace and profiled the nodes so we can finalize the optimization plan.\n\nBest,\nSarah",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "engineering@neural-systems.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "inspect the feature extraction pipeline",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_002",
+    "thread_id": "thd_002",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T07:10:00Z",
+    "sender_name": "HR Team",
+    "sender_email": "hr@company.com",
+    "subject": "Reminder: Submit Your Timesheet",
+    "body_text": "Dear Team,\n\nThis is a friendly reminder to submit your weekly timesheet before 6 PM today. Please ensure that all project hours, meeting durations, and training sessions are recorded accurately in the system. Several employees missed the deadline last week, and it caused delays in payroll processing.\n\nIf you encounter any technical issues with the portal, feel free to reach out to HR Operations. Timely submission helps us maintain compliance and ensures smooth internal processes.\n\nRegards,\nHR Department",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "Submit weekly timesheet",
+      "deadline": "11/18/2025 6:00 PM"
+    }
+  },
+  {
+    "id": "msg_003",
+    "thread_id": "thd_003",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T20:05:00Z",
+    "sender_name": "Marketing Weekly",
+    "sender_email": "newsletter@marketing.com",
+    "subject": "Your Weekly Marketing Insights",
+    "body_text": "Hello Subscriber,\n\nWelcome to this week's edition of Marketing Insights. In this issue, we explore recent trends in customer retention, highlight case studies from fast-growing startups, and share best practices for running high-converting ad campaigns. We've also included a deep dive into influencer metrics and how to evaluate partnerships beyond vanity numbers.\n\nWe hope this helps you refine your marketing strategies and stay updated with industry developments.\n\nTeam Marketing Weekly",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "Newsletter",
+    "actions": {
+      "task": "",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_004",
+    "thread_id": "thd_004",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T17:30:00Z",
+    "sender_name": "CloudOps Monitor",
+    "sender_email": "alerts@cloudops.com",
+    "subject": "ALERT: CPU Usage Exceeded Threshold",
+    "body_text": "Attention Alex,\n\nOur monitoring system has detected that your server 'prod-api-07' has exceeded 85% CPU usage for over 10 minutes. This could indicate increasing traffic, inefficient query patterns, or a potential memory leak.\n\nPlease review running processes, check for long-running queries, and evaluate API request logs for any unusual spikes. If needed, scale up the instance or shift the load to another node to avoid service degradation.\n\nThanks,\nCloudOps Monitoring System",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "review running processes and check for long-running queries",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_005",
+    "thread_id": "thd_005",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T15:00:00Z",
+    "sender_name": "John Miller",
+    "sender_email": "john.miller@producthub.com",
+    "subject": "Meeting Request: Roadmap Discussion",
+    "body_text": "Hi Alex,\n\nI wanted to check your availability for a roadmap alignment meeting tomorrow around 11 AM. The product team has finalized the preliminary features for Q1, and we need engineering's technical review before proceeding to the planning stage.\n\nThe meeting will cover timelines, potential risks, and the resource distribution for each feature. Please confirm your availability or suggest an alternative slot.\n\nThanks,\nJohn",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "product@producthub.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "Confirm availability for roadmap alignment meeting",
+      "deadline": "11/18/2025 11:00 AM"
+    }
+  },
+  {
+    "id": "msg_006",
+    "thread_id": "thd_006",
+    "folder": "Spam",
+    "timestamp": "2025-11-17T13:50:00Z",
+    "sender_name": "WinBig Lottery",
+    "sender_email": "lottery@winbig.com",
+    "subject": "Congratulations! You Won $1,000,000",
+    "body_text": "Congratulations Alex,\n\nYou have been selected as the grand prize winner of our $1,000,000 jackpot! To claim your prize, simply click the link below and enter your personal details. This is a limited-time, exclusive opportunity available only for the next 24 hours.\n\nAct fast to secure your winnings!",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "Spam",
+    "actions": {
+      "task": "click the link and enter personal details",
+      "deadline": "11/18/2025 01:50 PM"
+    }
+  },
+  {
+    "id": "msg_007",
+    "thread_id": "thd_001",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T10:15:00Z",
+    "sender_name": "Sarah Chen",
+    "sender_email": "sarah.chen@neural-systems.com",
+    "subject": "Re: Urgent: Model Training Pipeline Optimization",
+    "body_text": "Hi Alex,\n\nFollowing up on my previous email, I checked the earlier commit history and noticed that the batch normalization layer was modified in a recent patch. This change might also be contributing to the increased latency.\n\nI recommend comparing inference graphs before and after Build 2047 and running a profile on GPU memory allocation. Let me know what you find.\n\nSarah",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "compare inference graphs before and after Build 2047 and run a profile on GPU memory allocation",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_008",
+    "thread_id": "thd_007",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T06:45:00Z",
+    "sender_name": "Support Team",
+    "sender_email": "support@vendor.com",
+    "subject": "Your Ticket #12901 Has Been Updated",
+    "body_text": "Hello Alex,\n\nWe wanted to let you know that your support ticket regarding slow API responses has been updated by the engineering team. They have identified that the latency issue is caused by an outdated caching layer and are working on deploying the optimized version.\n\nPlease review the latest comments in your ticket dashboard and let us know if the issue persists.\n\nThank you,\nVendor Support Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "devops@vendor.com"
+    ],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "review the latest comments in your ticket dashboard",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_009",
+    "thread_id": "thd_008",
+    "folder": "Inbox",
+    "timestamp": "2025-11-16T21:20:00Z",
+    "sender_name": "Finance Dept",
+    "sender_email": "finance@company.com",
+    "subject": "Invoice Approval Required",
+    "body_text": "Hi Alex,\n\nWe have received an invoice from VendorX for services rendered last quarter. Please review the invoice details and provide your approval before Friday. The finance system has flagged missing documentation from the previous cycle, so ensure that all related receipts are uploaded.\n\nLet me know if you need any clarification.\n\nRegards,\nFinance Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "review the invoice details and provide approval",
+      "deadline": "11/22/2025"
+    }
+  },
+  {
+    "id": "msg_010",
+    "thread_id": "thd_009",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T11:00:00Z",
+    "sender_name": "Legal Team",
+    "sender_email": "legal@company.com",
+    "subject": "Policy Update: Data Handling Guidelines",
+    "body_text": "Dear Employees,\n\nThis email is to notify you that the internal data handling and storage guidelines have been updated to comply with the new regulatory requirements. All teams must review the latest policy document and acknowledge it in the compliance portal by the end of the week.\n\nFailure to follow the updated guidelines may result in compliance violations.\n\nRegards,\nLegal Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "review the latest policy document and acknowledge it in the compliance portal",
+      "deadline": "11/22/2025 11:59 PM"
+    }
+  },
+  {
+    "id": "msg_011",
+    "thread_id": "thd_010",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T08:00:00Z",
+    "sender_name": "Recruitment Team",
+    "sender_email": "recruitment@company.com",
+    "subject": "Interview Feedback Required",
+    "body_text": "Hi Alex,\n\nWe hope your discussion with the candidate went well yesterday. Could you please share your feedback report by today evening? Your evaluation will help us proceed with the second interview round.\n\nKindly include your assessment of the candidate's technical strengths, areas of improvement, and cultural fit.\n\nThanks,\nRecruitment Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "hr@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "share feedback report",
+      "deadline": "11/18/2025 05:00 PM"
+    }
+  },
+  {
+    "id": "msg_012",
+    "thread_id": "thd_011",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T18:30:00Z",
+    "sender_name": "Project Phoenix",
+    "sender_email": "phoenix@company.com",
+    "subject": "Daily Standup Notes",
+    "body_text": "Team,\n\nHere are the standup notes for today:\n- Backend team completed integration tests for the new deployment pipeline.\n- Frontend is addressing design alignment issues highlighted during review.\n- The QA team is preparing regression test cases for the release candidate.\n- We expect to deploy RC build tomorrow morning.\n\nRegards,\nPhoenix PM",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "dev-team@company.com"
+    ],
+    "bcc": [],
+    "category": "Informational",
+    "actions": {
+      "task": "deploy RC build",
+      "deadline": "11/18/2025 08:00 AM"
+    }
+  },
+  {
+    "id": "msg_013",
+    "thread_id": "thd_012",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T05:10:00Z",
+    "sender_name": "GitHub",
+    "sender_email": "noreply@github.com",
+    "subject": "New Security Alert in Your Repository",
+    "body_text": "Hello Alex,\n\nA new critical vulnerability has been detected in one of the dependencies used in your repository. We recommend reviewing the alert immediately and updating the affected packages to the patched versions.\n\nYou can find more details and remediation steps on your security dashboard.\n\nRegards,\nGitHub Security",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "review the alert and update the affected packages",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_014",
+    "thread_id": "thd_013",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T14:22:00Z",
+    "sender_name": "AWS Billing",
+    "sender_email": "billing@aws.com",
+    "subject": "Your Monthly AWS Bill is Ready",
+    "body_text": "Hello Alex,\n\nYour AWS invoice for the month is now available in your billing portal. Please review the charges for EC2, S3, RDS, and Lambda services. Let us know if you notice any discrepancies.\n\nThank you for using AWS.",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "review the charges for EC2, S3, RDS, and Lambda services",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_015",
+    "thread_id": "thd_014",
+    "folder": "Inbox",
+    "timestamp": "2025-11-16T12:00:00Z",
+    "sender_name": "Team Manager",
+    "sender_email": "manager@company.com",
+    "subject": "Feedback on Yesterday’s Deployment",
+    "body_text": "Hi Alex,\n\nGreat work on leading yesterday’s deployment. The rollout went smoothly overall, and users have already started benefitting from the performance improvements. Only one minor UI glitch was reported, and the frontend team quickly resolved it.\n\nThanks for the effort and coordination. Keep it up!\n\nRegards,\nManager",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "techlead@company.com"
+    ],
+    "bcc": [],
+    "category": "Informational",
+    "actions": {
+      "task": "",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_016",
+    "thread_id": "thd_015",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T04:40:00Z",
+    "sender_name": "Analytics Bot",
+    "sender_email": "reports@insight-engine.ai",
+    "subject": "Weekly Platform Health Summary",
+    "body_text": "Hello Alex,\n\nYour weekly platform health summary is ready. Uptime held steady at 99.94%, but average response time on the EU cluster increased by 18 ms. Please review the attached metrics and note the spike in cache evictions around 02:15 UTC.\n\nLet us know if you need a deeper breakdown.\n\nRegards,\nInsight Engine",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "sre@company.com"
+    ],
+    "bcc": [],
+    "category": "Informational",
+    "actions": {
+      "task": "review the attached metrics",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_017",
+    "thread_id": "thd_016",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T22:05:00Z",
+    "sender_name": "Facilities Team",
+    "sender_email": "facilities@company.com",
+    "subject": "Notice: HVAC Maintenance Tonight",
+    "body_text": "Hi Alex,\n\nFacilities will perform HVAC maintenance on floors 9-12 between 8 PM and midnight tonight. Please power down any non-essential equipment before you leave to avoid overheating risks.\n\nIf you must access the office during this window, contact security for temporary clearance.\n\nThanks,\nFacilities Operations",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "office-admin@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "Power down non-essential equipment",
+      "deadline": "11/17/2025 8:00 PM"
+    }
+  },
+  {
+    "id": "msg_018",
+    "thread_id": "thd_017",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T03:25:00Z",
+    "sender_name": "Customer Success",
+    "sender_email": "success@clientpulse.com",
+    "subject": "Escalation: Enterprise Client Latency Reports",
+    "body_text": "Hi Alex,\n\nOur enterprise client Helios Corp has reported intermittent latency when generating quarterly analytics exports. They provided trace IDs CS-5521 through CS-5530. Could you coordinate with the data services squad to analyze the traces and share mitigation steps?\n\nClient has requested an update by 3 PM PST.\n\nBest,\nCustomer Success Liaison",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "dataservices@company.com",
+      "amanda.sales@clientpulse.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "coordinate with the data services squad to analyze the traces and share mitigation steps",
+      "deadline": "11/18/2025 03:00 PM"
+    }
+  },
+  {
+    "id": "msg_019",
+    "thread_id": "thd_018",
+    "folder": "Inbox",
+    "timestamp": "2025-11-18T01:55:00Z",
+    "sender_name": "Travel Desk",
+    "sender_email": "travel@company.com",
+    "subject": "Itinerary Confirmed: SF Site Visit",
+    "body_text": "Hi Alex,\n\nYour travel itinerary for the San Francisco site visit has been confirmed. Flight 482 departs SEA at 07:10 on Dec 2, and your return flight leaves SFO at 18:35 on Dec 4. Hotel booking at Harbor Suites is guaranteed for three nights.\n\nPlease review the attachments for ticket details and expense policy reminders.\n\nSafe travels,\nCorporate Travel Desk",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "ops@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "review the attachments for ticket details and expense policy reminders",
+      "deadline": "12/04/2025 06:35 PM"
+    }
+  },
+  {
+    "id": "msg_020",
+    "thread_id": "thd_019",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T23:40:00Z",
+    "sender_name": "Security Training",
+    "sender_email": "training@securityshield.io",
+    "subject": "Action Required: Complete Q4 Security Module",
+    "body_text": "Dear Alex,\n\nThe Q4 security awareness module is now available and must be completed by November 25. The course covers phishing simulations, data retention policies, and password rotation best practices.\n\nFailure to complete the module will result in temporary account restrictions.\n\nThank you,\nCorporate Security",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "compliance@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "Complete Q4 Security Module",
+      "deadline": "11/25/2025"
+    }
+  },
+  {
+    "id": "msg_021",
+    "thread_id": "thd_020",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T19:15:00Z",
+    "sender_name": "Release Engineering",
+    "sender_email": "release@platform.dev",
+    "subject": "Release Notes: Platform v3.9.2",
+    "body_text": "Hi Alex,\n\nPlatform v3.9.2 has been deployed to staging. Key updates include the new tenant analytics dashboard, improved audit logging, and fixes for ticket API-4821. Please validate the integration scenarios for the analytics dashboard by tomorrow.\n\nShare any blockers in the release channel.\n\nThanks,\nRelease Engineering",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "qa-leads@platform.dev"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "validate the integration scenarios for the analytics dashboard",
+      "deadline": "11/18/2025"
+    }
+  },
+  {
+    "id": "msg_022",
+    "thread_id": "thd_021",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T16:45:00Z",
+    "sender_name": "Innovation Lab",
+    "sender_email": "lab@company.com",
+    "subject": "Invitation: Winter Hackathon Registration",
+    "body_text": "Hello Alex,\n\nRegistration for the internal Winter Hackathon is now open. Teams will tackle sustainability-themed challenges with IoT and AI components. The event runs Dec 9-11, and submissions close Nov 28.\n\nLet us know if you need help forming a team or pitching an idea.\n\nRegards,\nInnovation Lab Coordinators",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "hackathon@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "Register for Winter Hackathon",
+      "deadline": "11/28/2025"
+    }
+  },
+  {
+    "id": "msg_023",
+    "thread_id": "thd_022",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T13:20:00Z",
+    "sender_name": "Expense Automation",
+    "sender_email": "expenses@finance-ops.com",
+    "subject": "Expense Report Approved: October Onsite",
+    "body_text": "Hi Alex,\n\nYour expense report for the October onsite has been approved. Reimbursement of $642.18 will be included in the next payroll cycle. Itemized receipts have been archived under ER-7745.\n\nNo further action is required from your side.\n\nRegards,\nFinance Operations",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "finance@company.com"
+    ],
+    "bcc": [],
+    "category": "Informational",
+    "actions": {
+      "task": "",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_024",
+    "thread_id": "thd_023",
+    "folder": "Inbox",
+    "timestamp": "2025-11-17T09:55:00Z",
+    "sender_name": "IT Service Desk",
+    "sender_email": "it-help@company.com",
+    "subject": "Scheduled Maintenance: VPN Upgrade",
+    "body_text": "Hi Alex,\n\nPlease note that the corporate VPN will undergo an upgrade on November 20 between 01:00 and 03:00 UTC. During this window remote access will be unavailable. Ensure any running jobs are rescheduled accordingly.\n\nStatus updates will be posted on the IT status page.\n\nRegards,\nIT Service Desk",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "network@company.com"
+    ],
+    "bcc": [],
+    "category": "Informational",
+    "actions": {
+      "task": "reschedule running jobs",
+      "deadline": "11/20/2025 01:00 AM"
+    }
+  },
+  {
+    "id": "msg_025",
+    "thread_id": "thd_024",
+    "folder": "Inbox",
+    "timestamp": "2025-11-16T10:30:00Z",
+    "sender_name": "Community Outreach",
+    "sender_email": "volunteer@companyfoundation.org",
+    "subject": "Volunteer Opportunity: Holiday STEM Workshop",
+    "body_text": "Hi Alex,\n\nWe are hosting a holiday STEM workshop for local students on December 12 and are looking for volunteer mentors. Sessions include robotics demos, coding labs, and career Q&A. Training materials will be provided beforehand.\n\nPlease sign up by November 27 if you're interested.\n\nThank you,\nCommunity Outreach Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "foundation@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "sign up for volunteer mentors",
+      "deadline": "11/27/2025"
+    }
+  },
+  {
+    "id": "msg_026",
+    "thread_id": "thd_021",
+    "folder": "Inbox",
+    "timestamp": "2025-11-15T10:30:00Z",
+    "sender_name": "Customer Support",
+    "sender_email": "support@shoplane.com",
+    "subject": "Your Order #59102 Has Been Delayed",
+    "body_text": "Hi Alex,\n\nWe're writing to inform you that your recent order #59102 has been delayed due to a backlog at our fulfillment center. The shipment was originally scheduled to leave our warehouse yesterday, but unforeseen operational constraints caused a delay.\n\nOur logistics team is actively working to ensure that your order is dispatched within the next two business days. We sincerely apologize for the inconvenience and appreciate your patience.\n\nThank you,\nShoplane Customer Support",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "Informational",
+    "actions": {
+      "task": "await order dispatch",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_027",
+    "thread_id": "thd_022",
+    "folder": "Inbox",
+    "timestamp": "2025-11-15T09:15:00Z",
+    "sender_name": "Operations Team",
+    "sender_email": "operations@company.com",
+    "subject": "Escalation: Deployment Issues Reported in Region-EU",
+    "body_text": "Hi Alex,\n\nWe've received multiple escalation reports from customers in the EU region related to failed deployments during the last release. The failures seem to be tied to a misconfigured environment variable that was recently updated.\n\nPlease collaborate with the DevOps team to identify the specific nodes affected and roll back the configuration if necessary. Once corrected, initiate a redeploy for the EU cluster and validate the fix.\n\nLet us know if you need logs or access details.\n\nRegards,\nOperations Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "devops@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "collaborate with the DevOps team to identify and fix the deployment issue",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_028",
+    "thread_id": "thd_023",
+    "folder": "Inbox",
+    "timestamp": "2025-11-14T16:45:00Z",
+    "sender_name": "People & Culture",
+    "sender_email": "pnc@company.com",
+    "subject": "Performance Review Cycle Begins Next Week",
+    "body_text": "Dear Alex,\n\nThis is a reminder that the quarterly performance review cycle begins next Monday. You will need to complete your self-assessment and submit peer review nominations by Wednesday.\n\nPlease ensure that all comments are constructive and aligned with the performance framework guidelines. If you need help accessing the review dashboard, contact the People & Culture team.\n\nBest regards,\nPeople & Culture Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "manager@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "complete self-assessment and submit peer review nominations",
+      "deadline": "Wednesday"
+    }
+  },
+  {
+    "id": "msg_029",
+    "thread_id": "thd_024",
+    "folder": "Inbox",
+    "timestamp": "2025-11-13T19:30:00Z",
+    "sender_name": "Security Audit Team",
+    "sender_email": "audit@securitycorp.com",
+    "subject": "Reminder: Quarterly Security Compliance Check",
+    "body_text": "Hi Alex,\n\nThis is a reminder that your team is scheduled for the quarterly security compliance review. Please ensure that all access logs, deployment histories, and monitoring dashboards are ready for verification.\n\nAdditionally, validate that unused IAM roles are removed and temporary credentials are revoked. Our auditors will begin reviewing documentation starting Friday morning.\n\nThank you,\nSecurity Audit Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "security@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "Ensure all access logs, deployment histories, and monitoring dashboards are ready for verification and validate unused IAM roles are removed and temporary credentials are revoked",
+      "deadline": "11/15/2025 08:00 AM"
+    }
+  },
+  {
+    "id": "msg_030",
+    "thread_id": "thd_025",
+    "folder": "Inbox",
+    "timestamp": "2025-11-13T08:00:00Z",
+    "sender_name": "Product Team",
+    "sender_email": "product@company.com",
+    "subject": "New Product Release: AI Insights 4.0",
+    "body_text": "Hello Team,\n\nWe are excited to announce the release of AI Insights 4.0, which introduces major improvements in model explainability, real-time analytics, and automated anomaly detection. The rollout will occur in phases across regions.\n\nWe request engineering teams to validate compatibility with existing pipelines and review the migration guide by end of this week. Please raise any blockers early so we can address them before the global launch.\n\nRegards,\nProduct Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "engineering@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "validate compatibility with existing pipelines and review the migration guide",
+      "deadline": "11/16/2025 11:59 PM"
+    }
+  },
+  {
+    "id": "msg_031",
+    "thread_id": "thd_026",
+    "folder": "Inbox",
+    "timestamp": "2025-11-12T14:10:00Z",
+    "sender_name": "Tech Partner Group",
+    "sender_email": "partners@techgroup.com",
+    "subject": "Follow-Up on Integration Proposal",
+    "body_text": "Hi Alex,\n\nThank you for reviewing our proposal earlier this week. We have updated the integration document with the optimizations you suggested, particularly around the webhook architecture and event throughput.\n\nCould you please take another look and let us know if everything is aligned? If needed, we can set up a quick call to discuss the remaining concerns.\n\nBest regards,\nTech Partner Group",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "integration@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "Review the updated integration document",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_032",
+    "thread_id": "thd_027",
+    "folder": "Inbox",
+    "timestamp": "2025-11-12T10:20:00Z",
+    "sender_name": "Customer Experience",
+    "sender_email": "cx@support.com",
+    "subject": "Customer Complaint: Slow Response on Ticket #40392",
+    "body_text": "Hi Alex,\n\nA customer has flagged slow response times on ticket #40392. They reported that it has been over 48 hours without an update. We reviewed the ticket queue and found that it is currently assigned to your team.\n\nPlease investigate the issue and provide a detailed update for the customer as soon as possible. Let us know if we need to reassign it.",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "support-lead@support.com"
+    ],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "investigate the issue and provide a detailed update for the customer",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_033",
+    "thread_id": "thd_028",
+    "folder": "Inbox",
+    "timestamp": "2025-11-11T17:55:00Z",
+    "sender_name": "Infrastructure Team",
+    "sender_email": "infra@company.com",
+    "subject": "Network Latency Observed in APAC Region",
+    "body_text": "Hi Alex,\n\nOur monitoring dashboards have detected a spike in network latency across the APAC servers. Early diagnostics indicate potential packet drops at the edge load balancers.\n\nPlease coordinate with the network engineering team to investigate the root cause. If needed, we can temporarily reroute the traffic to backup nodes.\n\nRegards,\nInfrastructure Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "network@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do",
+    "actions": {
+      "task": "investigate the root cause of network latency",
+      "deadline": ""
+    }
+  },
+  {
+    "id": "msg_034",
+    "thread_id": "thd_029",
+    "folder": "Inbox",
+    "timestamp": "2025-11-11T09:00:00Z",
+    "sender_name": "Training & Development",
+    "sender_email": "training@company.com",
+    "subject": "Upcoming Workshop: Advanced Prompt Engineering",
+    "body_text": "Hi Alex,\n\nWe are excited to announce an upcoming workshop on Advanced Prompt Engineering scheduled for next Thursday. This session will cover real-world examples of instruction tuning, system prompts, chain-of-thought prompting, and response formatting.\n\nPlease register through the training portal before Monday if you're interested. Seats are limited and prioritized for engineering teams.\n\nBest,\nTraining Team",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "register for the workshop",
+      "deadline": "11/18/2025"
+    }
+  },
+  {
+    "id": "msg_035",
+    "thread_id": "thd_030",
+    "folder": "Inbox",
+    "timestamp": "2025-11-10T13:40:00Z",
+    "sender_name": "Team Collaboration",
+    "sender_email": "team@company.com",
+    "subject": "Sprint Planning: Tasks for Next Week",
+    "body_text": "Hi Alex,\n\nAs we approach the end of the current sprint, please review the upcoming tasks listed in Jira and confirm your availability for each item. The PM team wants to finalize task assignments by tomorrow so development can start immediately on Monday.\n\nLet us know if you foresee any blockers or need adjustments in workloads.\n\nThanks,\nTeam Collaboration Group",
+    "to": [
+      "alex.dev@example.com"
+    ],
+    "cc": [
+      "pm@company.com"
+    ],
+    "bcc": [],
+    "category": "To-Do by EOD",
+    "actions": {
+      "task": "review upcoming tasks and confirm availability",
+      "deadline": "11/11/2025"
+    }
+  }
+]
