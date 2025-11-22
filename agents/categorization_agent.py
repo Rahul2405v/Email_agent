@@ -5,11 +5,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-def load_prompts():
-    with open("prompts.json", "r") as f:
-        return json.load(f)
-prompts = load_prompts()
-
 llm = ChatGroq(
     model_name="llama-3.3-70b-versatile",
     temperature=0.1,

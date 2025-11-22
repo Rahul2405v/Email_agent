@@ -6,13 +6,6 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 
 load_dotenv()
 
-def load_prompts():
-    with open("prompts.json", "r") as f:
-        return json.load(f)
-
-prompts = load_prompts()
-summarization = prompts.get("summarization", "Provide a concise summary of the email.")
-
 llm = ChatGroq(
     model_name="llama-3.3-70b-versatile",
     temperature=0.1,

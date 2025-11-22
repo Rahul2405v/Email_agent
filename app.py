@@ -17,6 +17,7 @@ from rag.indexer import build_index
 from rag.service import rag_answer
 from rag.embedding import embed_query
 from rag.extract_idx import find as find_ids
+from rag.db_client import get_prompts as db_get_prompts, save_prompts as db_save_prompts, get_emails as db_get_emails
 
 load_dotenv()
 
@@ -30,21 +31,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Files
-PROMPT_FILE = "prompts.json"
-EMAIL_FILE = "mock_emails.json"
+# Use MongoDB-backed prompts and emails via rag.db_client
 
-
-# UTILS  -----------------------------------------------------
 
 def load_prompts():
-    return json.load(open(PROMPT_FILE, "r")) if os.path.exists(PROMPT_FILE) else {}
+    return db_get_prompts()
+
 
 def save_prompts(data):
-    json.dump(data, open(PROMPT_FILE, "w"), indent=4)
+    return db_save_prompts(data)
+
 
 def load_all_emails():
-    return json.load(open(EMAIL_FILE, "r")) if os.path.exists(EMAIL_FILE) else []
+    return db_get_emails()
 
 
 # MODELS -----------------------------------------------------
@@ -145,9 +144,6 @@ def rag_ask(body: AskBody):
     reply, docs = rag_answer(body.prompt, body.k)
     extract_ids = find_ids(reply)
     return {"answer": reply, "chunks": docs, "extracted_ids": extract_ids}
-
-
-# START -------------------------------------------------------
 
 @app.get("/health")
 def health():

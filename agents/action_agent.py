@@ -11,11 +11,6 @@ llm = ChatGroq(
 
 load_dotenv()
 
-def load_prompts():
-    with open("prompts.json", "r") as f:
-        return json.load(f)
-prompts = load_prompts()
-
 
 action_item_prompt_template = PromptTemplate.from_template("""
 {action_item_prompt}

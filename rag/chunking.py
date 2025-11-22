@@ -1,8 +1,17 @@
 import json, os, uuid
+from rag.db_client import get_emails as db_get_emails
 from typing import List, Dict, Any
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 def load_emails(path="mock_emails.json"):
+    # Prefer DB-backed emails; fall back to file if DB empty
+    try:
+        emails = db_get_emails()
+        if emails:
+            return emails
+    except Exception:
+        pass
+
     if not os.path.exists(path):
         return []
     return json.load(open(path, "r", encoding="utf-8"))
