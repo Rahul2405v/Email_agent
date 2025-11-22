@@ -132,15 +132,15 @@ def generate_reply(request: GenerateReplyRequest):
 
 # RAG ROUTES --------------------------------------------------
 
-@app.get("/rag/init")
+@app.get("/init")
 def rag_init():
     return {"indexed": build_index()}
 
-@app.post("/rag/embed")
+@app.post("/embed")
 def rag_embed(body: AskBody):
     return {"vector": embed_query(body.prompt)}
 
-@app.post("/rag/ask")
+@app.post("/ask")
 def rag_ask(body: AskBody):
     reply, docs = rag_answer(body.prompt, body.k)
     extract_ids = find_ids(reply)
