@@ -4,12 +4,8 @@
     { "src": "app.py", "use": "@vercel/python" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app.py",
-      "headers": {
-        "cache-control": "no-cache"
-      }
-    }
+    { "src": "/rag/(.*)", "dest": "/app.py" },
+    { "src": "/rag", "dest": "/app.py" },
+    { "src": "/(.*)", "dest": "/app.py" }
   ]
 }
